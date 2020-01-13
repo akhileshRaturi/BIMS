@@ -8,7 +8,8 @@
 
 <html>
 <head>
-  <title>Project</title>
+      <title>BIMS</title> 
+              <link rel="shortcut icon" href ="your_logo_2_.ico"  type="image/x-icon"> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -33,12 +34,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" >BIMS</a>
+      	<a class="navbar-brand" href="your-logo-3-.png">
+      <div class="logo-image">
+            <img src="your-logo-3-.png" class="img-fluid">
+      </div>
+</a>
+
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Home</a></li>
-		<li><a href="table.html">Information</a></li>
+		<li><a href="table.php">Information</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
 	  
@@ -49,9 +55,9 @@
   </div>
 </nav>
 
-<div class="container">   
-<table class="table table-striped">
-    <thead>
+<div class="table-responsive">   
+<table class="table table-striped">   
+ <thead>
       <tr>
         <th>Name</th>
         <th>Roll Number</th>
@@ -60,6 +66,7 @@
 		<th>Bond</th>
       </tr>
     </thead>
+
     <tbody>
 	<?php
 	$sql = "SELECT * FROM registeration";
@@ -76,6 +83,11 @@
 	?> 
     </tbody>
   </table>
+
+
+
+
+
 </div>
 
 
