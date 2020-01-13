@@ -8,9 +8,10 @@
 
 <html>
 <head>
-  <title>Projects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>BIMS</title> 
+              <link rel="shortcut icon" href ="your_logo_2_.ico"  type="image/x-icon"> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -34,7 +35,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" >BIMS</a>
+     	<a class="navbar-brand" href="your-logo-3-.png">
+      <div class="logo-image">
+            <img src="your-logo-3-.png" class="img-fluid">
+      </div>
+</a>
+
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
