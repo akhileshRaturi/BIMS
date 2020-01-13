@@ -2,6 +2,16 @@
       margin-bottom: 50px;
       border-radius: 0;
 }
+.logo-image{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -16px;
+    padding-top: 0px;
+}
+.carousel-inner > .item > img { width:100%; height:370px; }
+
 .jumbotron {
     margin-bottom: 0;
 	background-color: black;
