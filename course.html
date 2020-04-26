@@ -1,0 +1,118 @@
+<?php 
+	session_start();
+	include_once("config.php"); 
+	if(!isset($_SESSION['username'])){
+   header("Location:login.php");
+   }
+?>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>BIMS</title> 
+              <link rel="shortcut icon" href ="your_logo_56_.ico"  type="image/x-icon"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/ico" href="favicon.ico" />
+</head>
+<body style="background:#f2f2f2;">
+
+<div class="carousel-inner">
+    <div class="item active">
+      <img src="bond.png" alt="BIMS">
+    </div>
+
+
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     	<a class="navbar-brand" href="index.php">
+      <div class="logo-image">
+            <img src="your-logo-3-.png" class="img-fluid">
+      </div>
+</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.php">HOME</a></li>
+
+		<li><a href="course.html">COURSES OFFERED</a></li>
+        <li><a href="ad.html">ADMISSION PROCEDURE</a></li>
+        <li><a href="instruct.html">INSTRUCTIONS</a></li>
+      </ul>
+	  
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="logout.php"><span class="glyphicon glyphicon-off"></span> LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="width:999px; padding: 10px; border:3px solid black; background:#e6f2ff;">   
+
+<h1><b>Courses Offered:</b></h1>
+<br></br>
+<h5>  <li><b>Education Courses:</b></li>
+  <br><br>
+<b><u>Under Graduate:</u></b>
+<br><br>
+<li><b>General Information:</b></li>
+<br><br><ol> <b>M.B.B.S. Course:</b>Total Course Duration: 5 & 1/2 years.It is 4 and half year course.After completion of course Student has to complete One year Internship
+<br><br>
+<b>Total No of seats:</b> This College is one of the largest medical college in India with intake capacity of 250 students per year Course
+<br><br>
+<b>Eligibility Requirement:</b>
+<br><br>
+1.For Indian Nationals: Passed HSC with the Subject Biology and also appeared in GUJCET Exam in the same year. Minimum 70% Marks required in Theory Physics, Chemistry & Biology for General Category Students. For Reserve Categories Minimum Requirement 40% Marks required in Theory Physics, Chemistry & Biology.
+<br><br>
+2.For NRI: There are no NRI Seats in this college. For all Undergraduate Medical Admission in Gujarat State: Selection Procedure Details, Reservations, Rules regarding Admission, Fees will be available & Updated on Medical Admission Committee www.medadmbjmc.in Scholarship: Presently Scholarship is available to needy students by B.J. Medical College Alumni Association. Student Support Services: Accommodation: Hostel Facility is available at B.J. Medical College.
+<br><br></ol><b>
+<u>Post Graduate:</u></b>
+<br><br><b><li>
+General Information:
+</li></b><br><br>
+<ol>Various Post Graduate Courses are Offered at this Institute. These are MD, MS, Diploma and Super specialty Courses like DM & MCh.
+<br><br>
+<b>MD (Doctor of Medicine)
+</b><br><br>
+MD I Medicine, MD II Pathology, MD III Anatomy, MD IV Pharmacology, MD V Paediatrics, MD VI Anaesthesia, MD VII - Preventive & Social Medicine, MD VIII Physiology, MD IX Radiodiagnosis, MD X Radiotherapy, MD XI Skin & Venereal Diseases, MD XII - Psychiatry, MD XIV - TB & Chest Diseases, MD XV Forensic Medicine, MD XVI Microbiology
+<br>
+<br><b>
+MS (Master of Surgery)
+</b><br>
+<br>
+MS I General Surgery, MS II ENT MS, III Orthopaedics, MS IV Ophthalmology, MS V Obstetrics & Gynaecology
+<br>
+<br></ol><b>
+<li>Diploma</li>
+</b><br>
+<br><ol>
+DCP Diploma in Clinical Pathology, DCH Diploma in Child Health, DA Diploma in Anaesthesia, DPH Diploma in Public Health, DMRD Diploma Medical Radiodiagnosis, DVD Diploma in Venereal Diseases ,DPM Diploma in Psychiatry Medicine, DTCD Diploma in Tuberculosis & Chest Diseases, DLO Diploma in Laryngotorhinology, DO - Diploma in Ophthalmology, DGO - Diploma in Obstetrics & Gynaecology</h5>
+</ol><br>
+<br>
+<br>
+
+</div>
+<br>
+<br>
+
+<br>
+<footer class="text-center">
+  <p>© Major Project 2019-2020</p>
+</footer>
+
+
+</body>
+</html>

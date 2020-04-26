@@ -1,0 +1,106 @@
+<?php 
+	session_start();
+	include_once("config.php"); 
+	if(!isset($_SESSION['username'])){
+   header("Location:login.php");
+   }
+?>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>BIMS</title> 
+              <link rel="shortcut icon" href ="your_logo_56_.ico"  type="image/x-icon"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/ico" href="favicon.ico" />
+</head>
+<body style="background:#f2f2f2;">
+
+<div class="carousel-inner">
+    <div class="item active">
+      <img src="bond.png" alt="BIMS">
+    </div>
+
+
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     	<a class="navbar-brand" href="index.php">
+      <div class="logo-image">
+            <img src="your-logo-3-.png" class="img-fluid">
+      </div>
+</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.php">HOME</a></li>
+
+		<li><a href="course.html">COURSES OFFERED</a></li>
+        <li><a href="admission.html">ADMISSION PROCEDURE</a></li>
+        <li><a href="instruct.html">INSTRUCTIONS</a></li>
+      </ul>
+	  
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="logout.php"><span class="glyphicon glyphicon-off"></span> LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="width:999px; padding: 14px; border:3px solid black; background:#e6f2ff;">   
+
+<h1><b>Admisison Procedure</b></h1>
+<br></br>
+<h5>  
+Each year 250 seats are available for admission to the graduate medical course, leading to the award of the degree of M.B.B.S.<br><br>
+Prospective students for an undergraduate course leading towards a Bachelor of Medicine and Bachelor of Surgery (MBBS)degree must have completed a HSC (10+2, or high school) with the Science stream, including the subjects Biology, Chemistry and Physics with at least 50% marks.<br><br>
+<b><li>Eligibility Requirements:</li></b><ol><br> Indian Nationals, NRI- As per Government Rules</ol><br>
+<b><li>Selection Procedure details:</li></b>
+<br><br><b><ol>Reservation:</b> As per State Government Rules.
+<br><br>
+<b>Rules regarding admission:</b> As per State Government Rules.
+<br><br>
+<b>Fees & Deposits:</b> As per the decision of the admission committee.</ol>
+<br><br><b><li>Scholarships:</li></b><br><ol>Our students get various scholarship under centrally sponsored schemes of government.<br><br> They are:
+<br><br>
+   1. Central sector scheme of scholarship for college & university students.<br><br>
+    2. Umbrella scheme for education of ST Children.<br><br>
+    3.Post matic scholarship (PMS) for ST students.<br><br>
+    4.Merit-cum-means scholarship for professional and technical courses CS.<br><br>
+    5.sector scholarship of top class education for SC students.<br><br>
+    6.Post matric scholarship schemes minorities CS scholarship for top class education for students 
+    with disabilities.<br><br>
+
+And many others at state and local levels.</ol>
+<br><br>
+<b><li>Student Support Services:</b> Hostel facilities available for all boys & girls</li><br><br>
+</h5>
+<br>
+<br>
+<br>
+
+</div>
+<br>
+<br>
+
+<br>
+<footer class="text-center">
+  <p>© Major Project 2019-2020</p>
+</footer>
+
+
+</body>
+</html>

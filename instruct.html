@@ -1,0 +1,155 @@
+<?php 
+	session_start();
+	include_once("config.php"); 
+	if(!isset($_SESSION['username'])){
+   header("Location:login.php");
+   }
+?>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>BIMS</title> 
+              <link rel="shortcut icon" href ="your_logo_56_.ico"  type="image/x-icon"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/ico" href="favicon.ico" />
+</head>
+<body style="background:#f2f2f2;">
+
+<div class="carousel-inner">
+    <div class="item active">
+      <img src="bond.png" alt="BIMS">
+    </div>
+
+
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     	<a class="navbar-brand" href="index.php">
+      <div class="logo-image">
+            <img src="your-logo-3-.png" class="img-fluid">
+      </div>
+</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.php">HOME</a></li>
+
+		<li><a href="course.html">COURSES OFFERED</a></li>
+        <li><a href="ad.html">ADMISSION PROCEDURE</a></li>
+        <li><a href="instruct.html">INSTRUCTIONS</a></li>
+      </ul>
+	  
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="logout.php"><span class="glyphicon glyphicon-off"></span> LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="width:999px; padding: 14px; border:3px solid black; background:#e6f2ff;">   
+
+<h1><b>Instruction For The Students And Parents</b></h1>
+<br></br>
+<h5>  <b><br><br>
+ <li>Hostel:</li></b><br>
+<ol>
+There are two hostels, one for boys and one for girls with equal no. of seats. If you are planning to stay in hostel, fill in hostel admission form and hand it over for quick processing. Mess facility is available in Hostel, College Canteen. No private electronic or electric equipment or furniture will be allowed in hostel.<br><br></ol>
+<b><li>Fee and Deposits:</li></b><br>
+<ol>
+    Fee for General quota student is 6000 per year and for, which is decided by the Fee Regulatory Committee every year.<br>
+    The one time Hostel Deposit is Rs. 5000/- which will be refundable while leaving the Hostel, for which student need to produce original receipt of payment.<br>
+    College caution money, Library fee per term, Hostel - Fee and deposit for one term and student'association fee per term will be collected at the time of reporting.<br>
+    Mess charges will be extra.<br>
+    Enrollment/Eligibility certificate fee is to be paid to Gujarat University along with the enrollment form.<br>
+    You have to pay for journals and answer books of part ending examination, terminal examinations and preliminary internal assessment examination separately to the respective departments.<br></ol>
+<br><b><li>
+Photographs:</li>
+</b><br>
+Please bring 10 colored passport size photographs at the time of reporting.
+<br><br><ol>
+    1 for library membership<br>
+    3 for hostel form<br>
+    1 for bank account<br>
+    1 for student association<br>
+    1 for student record section<br>
+    1 for identity card<br>
+    2 extra photograph<br></ol>
+<br><br><b><li>
+Articles:</li></b><br>
+<ol>
+Following items you have to procure from Ahmedabad/Gandhinagar or Place where a medical college is located and brought at the time of reporting.
+<br><br>
+2 white aprons with full sleeves & name plate with black background and white letters, dissection box for human body dissection, bone set, a set of automated disposable pricking lancets.
+<br><br>
+For the students who wants to get admission in hostel they should bring / purchase following things from Ahmedabad /Gandhinagar -1 mattress, 1 blanket, 2 pillow cover, 2 bed sheets, 2 towels, 2 white handkerchief, 2 small napkins, 2 pairs of shocks, 1 nail cutter, Shaving kit for boys, needle and white thread, Black shoe polish & shoe brush , bathroom sleepers, sport shoes,1 twenty liters bucket & a tumbler with student name on it with marker pen, washing soap / powder, bathing soap & Soap cash / shampoo, tooth brush, tooth paste & tooth brush holder, tongue cleaner ,Oil and comb, suitable size mirror, 6 aluminum hangars, 12 feet plastic string,5 liters plastic water jug, a packet of wax candles with match box or a small torch, 1 stain less steel Tiffin carrier, (Though the electric failure is not common in Ahemdabad it is better to keep emergency light and mobile phone with an instruction not to use in college premises).
+<br><br></ol>
+<b><li>Initial difficulties in studies and books:
+</li></b><br><ol>
+As you already know that in 1st MBBS you have to read three subjects i.e. Anatomy, Physiology and Biochemistry. These subjects' senior professors and other staff members of college will help you in solving initial difficulties related to studies.
+<br><br>
+The list of Books to be purchased is shown in the websiteâ€™s Department page. It is recommended that only those books which shown under the heading "prescribed books" should be procured. In addition, some of the books listed under "Additional reading" may be procured; it is not necessary to procure all the books under the heading "Additional books". Do not procure any other book not shown in either of these lists as they are not recommended by the teachers of the respective departments, also purchase the latest available edition only.
+<br><br>
+There are good library facilities. The Library is located in Second Floor of the College building. There are more than 3000 books with internet facility.
+<br><br></ol>
+<b><li>Bank Account:</li></b><br>
+<ol>Almost all major banks have their branches in Ahemdabad, are located at civil Hospital nearby college.
+Due to stringent R.B.I. regulations, it is advisable to bring the identification letter/ certificate from your present bankers along with 2 recent passport size photographs which will facilitate in opening the bank account.<br></ol>
+<b><li>Documents to be submitted with the registration form: </li></b><br><ol>
+The Candidate shall produce original documents for verification and attach the self-attested copies of the following documents with the Application form, namely :-<br></ol>
+<b>(A) For Government Seats</b><br><br>
+<ol>
+    <li> Qualifying Examination/Standard 12th (HSC) Mark sheet as the case may be.</li><br>
+     <li>Gujarat Common Entrance Test Mark-sheet of current academic year;</li><br>
+    <li> School Leaving Certificate or Transfer Certificate;</li><br>
+    <li> S.S.C Examination (Std.10th ) Mark-sheet and passing Certificate,</li><br>
+    <li> Caste certificate for a candidate belonging to Scheduled Caste(SC), Scheduled Tribes(ST) and Socially and Educationally Backward Classes (SEBC), issued by the authority empowered by the Government in this behalf;(for SC,ST AND SEBC candidates)</li><br>
+    <li> Non-Creamy Layer (NCL) certificate of the family ,issued after 1st April of the relevant academic year, by the authority empowered by the Government in this behalf;(for SEBC candidates)</li><br>
+    <li> Certificate of Physical Disability, issued and duly signed by the medical board constituted or medical officer authorized for the purpose;(for physically disabled candidates)</li><br>
+    <li>The certificate of local candidate from the Dean of NHLMMC, Ahmedabad or,as the case may be, from SMIMER, Surat</li><br>
+    <li> Certificate of Economically weaker sections(EWS)as specified in Government Resolution, Social Justice and Empowerment department dated the 6th May,2016</li>
+    <li> Such other certificates as the Admission Committee deem necessary</li>
+<br><br></ol>
+<b>
+(B) For Management Seats:
+</b><br><br><ol>
+    <li> Qualifying Exaimination/Standard 12th (HSC) Mark sheet as the case may be.</li><br>
+    <li> NEET rank letter or GUJCET Mark-sheet of current academic year as the case may be;</li><br>
+    <li> School Leaving Certificate or Transfer Certificate;</li><br>
+    <li> S.S.C. Examination (Std. 10th) Mark-sheet and passing certificate.</li><br>
+    <li> Such other certificates as the consortium deem necessary.</li><br>
+<br></ol>
+    <li>The candidate shall have to produce for verification , at the time of counseling , before admission committee or consortium, the original documents , copies of which are attached with the application.</li>
+<br>
+    <li>The admission Committee or consortium may retain any original documents, which it considers necessary until the admission process is completed . The said document shall be handed over by the admission committee/consortium to the college or institution, where the candidate has got admission, after completion of admission process. Such college or institution shall return the original document to the candidate after completion of administrative procedure (e.g enrollment etc.).</li>
+    <br>
+</h5>
+<br>
+<br>
+<br>
+
+</div>
+<br>
+<br>
+
+<br>
+<footer class="text-center">
+  <p>© Major Project 2019-2020</p>
+</footer>
+
+
+</body>
+</html>
